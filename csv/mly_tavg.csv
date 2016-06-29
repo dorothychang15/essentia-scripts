@@ -1,0 +1,5 @@
+Data source: National Centers for Environmental Information (NCEI) - Asheville NC,,,,,,,,,,,,,
+stnid,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,station
+USC00047767,50.8,52.6,53.3,54,55.1,56.6,57.7,59.1,59.3,58.7,55.2,51.1,San Francisco
+USC00049152,59,58.8,59.3,61.2,63,65.6,69.4,70.4,69.9,67.1,62.9,58.7,Los Angeles
+USW00024233,42,43.4,46.5,50.3,56,60.9,65.7,66.1,61.3,52.8,45.4,40.6,Seattle
