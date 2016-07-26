@@ -1,5 +1,5 @@
 #!/bin/bash
-# organizes gasoline price data
+# organizes state tax collection data
 # These data were obtained from Bureau of Labor Statistics
 
 ess cluster set local
