@@ -1,11 +1,6 @@
 #!/bin/sh
 # processes labor data
 
-#ess server reset
-#ess create database airline --ports=1
-#ess create vector vector1 s,pkey:year i,+add:numflights f,+add:totaldelay f:avgdelay f,+add:numdelay15
-#ess server commit
-
 ess select s3://asi-opendata --aws_access_key [[access key]] --aws_secret_access_key [[secret access key]]
 ess category add ecconst 'LaborStats/suppl/ECI.ECCONST.TXT' --dateregex='[:%Y:]' --overwrite
 ess summary ecconst
